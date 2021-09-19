@@ -1,0 +1,303 @@
+Watching for file changes with StatReloader
+Web Page Accessed
+"GET /index.html HTTP/1.1" 200 3890
+Web Page Accessed
+"GET /favicon.ico HTTP/1.1" 200 3890
+Data posted to make predictions
+"POST /index.html HTTP/1.1" 302 0
+Web Page Accessed
+"GET /index.html HTTP/1.1" 200 4096
+Web Page Accessed
+"GET /favicon.ico HTTP/1.1" 200 3890
+/Users/arslanbutt/Work/Wheat Kernel Classification/wheat_kernel/wheat_kernel/settings.py changed, reloading.
+Watching for file changes with StatReloader
+Web Page Accessed
+"GET /index.html HTTP/1.1" 200 3890
+Web Page Accessed
+"GET /favicon.ico HTTP/1.1" 200 3890
+Watching for file changes with StatReloader
+Web Page Accessed
+"GET / HTTP/1.1" 200 3890
+"GET /static/index.css HTTP/1.1" 304 0
+"GET /static/cover.jpeg HTTP/1.1" 304 0
+Web Page Accessed
+"GET /favicon.ico HTTP/1.1" 200 3890
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/arslanbutt/opt/anaconda3/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/arslanbutt/opt/anaconda3/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/arslanbutt/Work/Projects/Wheat Kernel Classification/wheat_kernel/predict/views.py", line 21, in predict_kernel
+    temp = JSONParser.parse(request)
+TypeError: parse() missing 1 required positional argument: 'stream'
+"POST / HTTP/1.1" 500 62082
+Web Page Accessed
+"GET /favicon.ico HTTP/1.1" 200 3890
+/Users/arslanbutt/Work/Projects/Wheat Kernel Classification/wheat_kernel/predict/views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/arslanbutt/opt/anaconda3/lib/python3.8/site-packages/rest_framework/parsers.py", line 65, in parse
+    return json.load(decoded_stream, parse_constant=parse_constant)
+  File "/Users/arslanbutt/opt/anaconda3/lib/python3.8/site-packages/rest_framework/utils/json.py", line 31, in load
+    return json.load(*args, **kwargs)
+  File "/Users/arslanbutt/opt/anaconda3/lib/python3.8/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+  File "/Users/arslanbutt/opt/anaconda3/lib/python3.8/json/__init__.py", line 370, in loads
+    return cls(**kw).decode(s)
+  File "/Users/arslanbutt/opt/anaconda3/lib/python3.8/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/Users/arslanbutt/opt/anaconda3/lib/python3.8/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/arslanbutt/opt/anaconda3/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/arslanbutt/opt/anaconda3/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/arslanbutt/Work/Projects/Wheat Kernel Classification/wheat_kernel/predict/views.py", line 21, in predict_kernel
+    temp = JSONParser().parse(request)
+  File "/Users/arslanbutt/opt/anaconda3/lib/python3.8/site-packages/rest_framework/parsers.py", line 67, in parse
+    raise ParseError('JSON parse error - %s' % str(exc))
+rest_framework.exceptions.ParseError: JSON parse error - Expecting value: line 1 column 1 (char 0)
+"POST / HTTP/1.1" 500 92810
+Web Page Accessed
+"GET /favicon.ico HTTP/1.1" 200 3890
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/arslanbutt/opt/anaconda3/lib/python3.8/site-packages/rest_framework/parsers.py", line 65, in parse
+    return json.load(decoded_stream, parse_constant=parse_constant)
+  File "/Users/arslanbutt/opt/anaconda3/lib/python3.8/site-packages/rest_framework/utils/json.py", line 31, in load
+    return json.load(*args, **kwargs)
+  File "/Users/arslanbutt/opt/anaconda3/lib/python3.8/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+  File "/Users/arslanbutt/opt/anaconda3/lib/python3.8/json/__init__.py", line 370, in loads
+    return cls(**kw).decode(s)
+  File "/Users/arslanbutt/opt/anaconda3/lib/python3.8/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/Users/arslanbutt/opt/anaconda3/lib/python3.8/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/arslanbutt/opt/anaconda3/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/arslanbutt/opt/anaconda3/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/arslanbutt/Work/Projects/Wheat Kernel Classification/wheat_kernel/predict/views.py", line 21, in predict_kernel
+    temp = JSONParser().parse(request)
+  File "/Users/arslanbutt/opt/anaconda3/lib/python3.8/site-packages/rest_framework/parsers.py", line 67, in parse
+    raise ParseError('JSON parse error - %s' % str(exc))
+rest_framework.exceptions.ParseError: JSON parse error - Expecting value: line 1 column 1 (char 0)
+"POST / HTTP/1.1" 500 92810
+Web Page Accessed
+"GET /favicon.ico HTTP/1.1" 200 3890
+Web Page Accessed
+"GET / HTTP/1.1" 200 3890
+Web Page Accessed
+"GET /favicon.ico HTTP/1.1" 200 3890
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/arslanbutt/opt/anaconda3/lib/python3.8/site-packages/rest_framework/parsers.py", line 65, in parse
+    return json.load(decoded_stream, parse_constant=parse_constant)
+  File "/Users/arslanbutt/opt/anaconda3/lib/python3.8/site-packages/rest_framework/utils/json.py", line 31, in load
+    return json.load(*args, **kwargs)
+  File "/Users/arslanbutt/opt/anaconda3/lib/python3.8/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+  File "/Users/arslanbutt/opt/anaconda3/lib/python3.8/json/__init__.py", line 370, in loads
+    return cls(**kw).decode(s)
+  File "/Users/arslanbutt/opt/anaconda3/lib/python3.8/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/Users/arslanbutt/opt/anaconda3/lib/python3.8/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/arslanbutt/opt/anaconda3/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/arslanbutt/opt/anaconda3/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/arslanbutt/Work/Projects/Wheat Kernel Classification/wheat_kernel/predict/views.py", line 21, in predict_kernel
+    temp = JSONParser().parse(request)
+  File "/Users/arslanbutt/opt/anaconda3/lib/python3.8/site-packages/rest_framework/parsers.py", line 67, in parse
+    raise ParseError('JSON parse error - %s' % str(exc))
+rest_framework.exceptions.ParseError: JSON parse error - Expecting value: line 1 column 1 (char 0)
+"POST / HTTP/1.1" 500 92810
+Web Page Accessed
+"GET /favicon.ico HTTP/1.1" 200 3890
+/Users/arslanbutt/Work/Projects/Wheat Kernel Classification/wheat_kernel/predict/views.py changed, reloading.
+Watching for file changes with StatReloader
+Data posted to make predictions
+"POST / HTTP/1.1" 302 0
+Web Page Accessed
+"GET /index.html HTTP/1.1" 200 4096
+Web Page Accessed
+"GET /favicon.ico HTTP/1.1" 200 3890
+/Users/arslanbutt/Work/Projects/Wheat Kernel Classification/wheat_kernel/predict/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/arslanbutt/Work/Projects/Wheat Kernel Classification/wheat_kernel/predict/views.py changed, reloading.
+Watching for file changes with StatReloader
+Data posted to make predictions
+"POST /index.html HTTP/1.1" 302 0
+Web Page Accessed
+"GET /index.html HTTP/1.1" 200 4096
+Web Page Accessed
+"GET /favicon.ico HTTP/1.1" 200 3890
+/Users/arslanbutt/Work/Projects/Wheat Kernel Classification/wheat_kernel/predict/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/arslanbutt/Work/Projects/Wheat Kernel Classification/wheat_kernel/predict/views.py changed, reloading.
+Watching for file changes with StatReloader
+Data posted to make predictions
+"POST /index.html HTTP/1.1" 302 0
+Web Page Accessed
+"GET /index.html HTTP/1.1" 200 4096
+Web Page Accessed
+"GET /favicon.ico HTTP/1.1" 200 3890
+/Users/arslanbutt/Work/Projects/Wheat Kernel Classification/wheat_kernel/predict/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/arslanbutt/Work/Projects/Wheat Kernel Classification/wheat_kernel/predict/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/arslanbutt/Work/Projects/Wheat Kernel Classification/wheat_kernel/predict/views.py changed, reloading.
+Watching for file changes with StatReloader
+Data posted to make predictions
+"POST /index.html HTTP/1.1" 302 0
+Web Page Accessed
+"GET /index.html HTTP/1.1" 200 4096
+Web Page Accessed
+"GET /favicon.ico HTTP/1.1" 200 3890
+/Users/arslanbutt/Work/Projects/Wheat Kernel Classification/wheat_kernel/predict/views.py changed, reloading.
+Watching for file changes with StatReloader
+Data posted to make predictions
+"POST /index.html HTTP/1.1" 302 0
+Web Page Accessed
+"GET /index.html HTTP/1.1" 200 4096
+Web Page Accessed
+"GET /favicon.ico HTTP/1.1" 200 3890
+/Users/arslanbutt/Work/Projects/Wheat Kernel Classification/wheat_kernel/predict/views.py changed, reloading.
+Watching for file changes with StatReloader
+Web Page Accessed
+"GET /index.html HTTP/1.1" 200 3890
+Web Page Accessed
+"GET /favicon.ico HTTP/1.1" 200 3890
+Data posted to make predictions
+"POST /index.html HTTP/1.1" 302 0
+Web Page Accessed
+"GET /index.html HTTP/1.1" 200 4096
+Web Page Accessed
+"GET /favicon.ico HTTP/1.1" 200 3890
+Watching for file changes with StatReloader
+Web Page Accessed
+"GET / HTTP/1.1" 200 2754
+"GET /static/index.css HTTP/1.1" 200 1053
+"GET /static/cover.jpeg HTTP/1.1" 200 783739
+Web Page Accessed
+"GET /favicon.ico HTTP/1.1" 200 2754
+Data posted to make predictions
+"POST / HTTP/1.1" 302 0
+Web Page Accessed
+"GET /index.html HTTP/1.1" 200 2960
+Web Page Accessed
+"GET /favicon.ico HTTP/1.1" 200 2754
+Watching for file changes with StatReloader
+Web Page Accessed
+"GET / HTTP/1.1" 200 2754
+"GET /static/index.css HTTP/1.1" 304 0
+"GET /static/cover.jpeg HTTP/1.1" 200 783739
+Web Page Accessed
+"GET /favicon.ico HTTP/1.1" 200 2754
+Data posted to make predictions
+"POST / HTTP/1.1" 302 0
+Web Page Accessed
+"GET /index.html HTTP/1.1" 200 2960
+Web Page Accessed
+"GET /favicon.ico HTTP/1.1" 200 2754
+Watching for file changes with StatReloader
+/Users/arslanbutt/Work/Projects/Wheat Kernel Classification/wheat_kernel/wheat_kernel/settings.py changed, reloading.
+Watching for file changes with StatReloader
+Web Page Accessed
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/arslanbutt/opt/anaconda3/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/arslanbutt/opt/anaconda3/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/arslanbutt/Work/Projects/Wheat Kernel Classification/wheat_kernel/predict/views.py", line 14, in predict_kernel
+    return render(request, 'index.html')
+  File "/Users/arslanbutt/opt/anaconda3/lib/python3.8/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/arslanbutt/opt/anaconda3/lib/python3.8/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/Users/arslanbutt/opt/anaconda3/lib/python3.8/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/Users/arslanbutt/opt/anaconda3/lib/python3.8/site-packages/django/template/base.py", line 170, in render
+    return self._render(context)
+  File "/Users/arslanbutt/opt/anaconda3/lib/python3.8/site-packages/django/template/base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "/Users/arslanbutt/opt/anaconda3/lib/python3.8/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/arslanbutt/opt/anaconda3/lib/python3.8/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/arslanbutt/opt/anaconda3/lib/python3.8/site-packages/django/templatetags/static.py", line 106, in render
+    url = self.url(context)
+  File "/Users/arslanbutt/opt/anaconda3/lib/python3.8/site-packages/django/templatetags/static.py", line 103, in url
+    return self.handle_simple(path)
+  File "/Users/arslanbutt/opt/anaconda3/lib/python3.8/site-packages/django/templatetags/static.py", line 118, in handle_simple
+    return staticfiles_storage.url(path)
+  File "/Users/arslanbutt/opt/anaconda3/lib/python3.8/site-packages/django/contrib/staticfiles/storage.py", line 147, in url
+    return self._url(self.stored_name, name, force)
+  File "/Users/arslanbutt/opt/anaconda3/lib/python3.8/site-packages/django/contrib/staticfiles/storage.py", line 126, in _url
+    hashed_name = hashed_name_func(*args)
+  File "/Users/arslanbutt/opt/anaconda3/lib/python3.8/site-packages/django/contrib/staticfiles/storage.py", line 417, in stored_name
+    raise ValueError("Missing staticfiles manifest entry for '%s'" % clean_name)
+ValueError: Missing staticfiles manifest entry for './index.css'
+"GET / HTTP/1.1" 500 145
+Web Page Accessed
+Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "/Users/arslanbutt/opt/anaconda3/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/arslanbutt/opt/anaconda3/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/arslanbutt/Work/Projects/Wheat Kernel Classification/wheat_kernel/predict/views.py", line 14, in predict_kernel
+    return render(request, 'index.html')
+  File "/Users/arslanbutt/opt/anaconda3/lib/python3.8/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/arslanbutt/opt/anaconda3/lib/python3.8/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/Users/arslanbutt/opt/anaconda3/lib/python3.8/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/Users/arslanbutt/opt/anaconda3/lib/python3.8/site-packages/django/template/base.py", line 170, in render
+    return self._render(context)
+  File "/Users/arslanbutt/opt/anaconda3/lib/python3.8/site-packages/django/template/base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "/Users/arslanbutt/opt/anaconda3/lib/python3.8/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/arslanbutt/opt/anaconda3/lib/python3.8/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/arslanbutt/opt/anaconda3/lib/python3.8/site-packages/django/templatetags/static.py", line 106, in render
+    url = self.url(context)
+  File "/Users/arslanbutt/opt/anaconda3/lib/python3.8/site-packages/django/templatetags/static.py", line 103, in url
+    return self.handle_simple(path)
+  File "/Users/arslanbutt/opt/anaconda3/lib/python3.8/site-packages/django/templatetags/static.py", line 118, in handle_simple
+    return staticfiles_storage.url(path)
+  File "/Users/arslanbutt/opt/anaconda3/lib/python3.8/site-packages/django/contrib/staticfiles/storage.py", line 147, in url
+    return self._url(self.stored_name, name, force)
+  File "/Users/arslanbutt/opt/anaconda3/lib/python3.8/site-packages/django/contrib/staticfiles/storage.py", line 126, in _url
+    hashed_name = hashed_name_func(*args)
+  File "/Users/arslanbutt/opt/anaconda3/lib/python3.8/site-packages/django/contrib/staticfiles/storage.py", line 417, in stored_name
+    raise ValueError("Missing staticfiles manifest entry for '%s'" % clean_name)
+ValueError: Missing staticfiles manifest entry for './index.css'
+"GET /favicon.ico HTTP/1.1" 500 145
+/Users/arslanbutt/Work/Projects/Wheat Kernel Classification/wheat_kernel/wheat_kernel/settings.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/arslanbutt/Work/Projects/Wheat Kernel Classification/wheat_kernel/wheat_kernel/settings.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/arslanbutt/Work/Projects/Wheat Kernel Classification/wheat_kernel/wheat_kernel/settings.py changed, reloading.

@@ -1,0 +1,1 @@
+web: gunicorn wheat_kernel.wsgi --log-file -

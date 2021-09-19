@@ -1,0 +1,19 @@
+body{
+    height: 100%;
+    width: 100%;
+    background-image: url('./cover.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#alert{
+    margin: auto;
+    display: block;
+    width: 60%;
+    margin-top: 3%;
+    background-color: rgba(30, 33, 31,0.5);
+    text-align: center;
+    color: white;
+    border: 2px solid black;
+    border-radius: 30px;
+}
+

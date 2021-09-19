@@ -1,0 +1,12 @@
+Django
+django-cors-headers
+django-heroku
+djangorestframework
+gunicorn
+joblib
+numpy
+sklearn
+path
+pathlib2
+requests
+whitenoise
